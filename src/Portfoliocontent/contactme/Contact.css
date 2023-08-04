@@ -1,0 +1,77 @@
+.contact_parent{
+    display:grid ;
+    gap: 2rem;
+    grid-template-columns: 40% 50%;
+    padding: 2rem 0;
+    width: 100%;
+}
+.msgbox{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  gap: 2rem;
+}
+.msg{
+    width:250px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 140, 213);
+    border-radius: 1rem;
+    padding: 4rem 2rem;
+}
+.email form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.inputfeild{
+    width: 100%;
+    resize: none;
+    padding: 1rem;
+    border-radius:0.5rem ;
+    background: transparent;
+    border: 2px solid #c8bdce;
+    box-shadow: 1px 1px 5px 0px #ede7f0 ;
+    font-size: 0.8rem;
+    color: white;
+    outline: none;
+}
+.email .btn{
+    background-color: #968e9b;
+    width: max-content;
+    border: 0;
+}
+.email .btn:hover{
+    background: rgb(203, 153, 225);
+}
+@media screen  and (max-width:850px){
+    .contact_parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+        gap: 3rem;
+    }
+.email{
+    width:100%;
+}
+.msgbox{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 450px ) {
+    .msg{
+
+        width: 180px;
+        height:180px;
+
+        }
+        
+  }

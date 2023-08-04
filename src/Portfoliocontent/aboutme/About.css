@@ -1,0 +1,141 @@
+.about_parent{
+    display: grid;
+grid-template-columns: 35% 50%;
+justify-content: center;
+align-items: center;
+gap: 2%;
+}
+.about_parent{
+
+padding: 0 4rem;
+}
+
+.about_img1{
+
+width: 300px;
+height:300px;
+
+
+    background-color: rgb(241, 189, 255);
+    border-radius: 2rem;
+}
+.about_img2{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-image: url("../../../public/best.jpg");
+   background-size: cover;
+    background-position: center;
+    transform: rotate(12deg);
+}
+.about_img2:hover{
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+}
+.about_content{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly ;
+    font-size: 1rem;
+  
+}
+.about_content_skills{
+
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_content_skills>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.Box{
+   padding:2rem 3rem  ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background: rgb(52, 24, 85);
+    border-radius: 0.5rem;
+
+
+}
+.Box p{
+    margin:0;
+}
+.Box:hover{
+background: rgb(81, 37, 132);
+}
+.about_icn{
+    margin-bottom: 0.5rem;
+}
+
+.about_content_description{
+    margin-top: 1rem;
+}
+.about_content .btn-primary{
+background-color: rgb(161, 132, 177) !important;
+border:0 !important;
+}
+.about_content .btn-primary:hover{
+    background-color: rgb(156, 112, 179) !important;
+
+}
+@media screen and (max-width: 830px ) {
+    .about_parent{
+        display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+        }
+        .about_img1{
+            margin: 2rem;
+        }
+        .about_content{
+            align-items: center;
+            text-align: center;
+        }
+        .about_content_skills{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .Box{
+            padding: 4rem 4.5rem;
+            height:200px;
+            width:200px;
+           font-size: 1.5rem;
+        }
+        .about_icn{
+            transform: scale(2);
+            margin-bottom: 2rem;
+        }
+        
+  }
+  @media screen and (max-width: 450px ) {
+    .about_img1{
+
+        width: 200px;
+        height:200px;
+        }
+        
+  }
+  @media  screen and (max-width:600px) {
+    .about_content_skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+
+    }
+    .about_content_description{
+       text-align: center;
+    }
+  }
