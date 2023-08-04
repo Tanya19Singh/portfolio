@@ -30,3 +30,10 @@ cursor: pointer;
     .scroll{
       display: none;
     }}
+    @media screen and (max-width: 500px )
+{.footer_links{
+    flex-direction: column;
+    text-align: center;
+}
+
+}

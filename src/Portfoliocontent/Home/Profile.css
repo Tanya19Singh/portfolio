@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap:1rem;
 }
 .profile_details{
   height:380px;
@@ -56,7 +57,7 @@ color: black;
     height: 92%;
     width:92%;
     background-size: cover;
-    background-image: url("../../../docs/ai.jpg");
+    background-image: url("../../../public/ai.jpg");
     background-position: center;
     border-radius: 50%;
  
@@ -84,6 +85,11 @@ transition: 1s ease-in-out;
   .scroll_down{
     display: none;
   }
+}
+@media screen and (max-width:850px) {
+  .profile_details{
+    height:350px;
+    width: 350px;}  
 }
 @media screen and (max-width: 450px ) {
   .profile-picture{

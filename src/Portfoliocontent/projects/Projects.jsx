@@ -10,12 +10,12 @@ const Projects =()=>{
     <div className="projects_box">
         <div className="project_img i1"></div>
          <p  className="desc"> A dynamic form using React</p>
-         <a>  <button className="btn btn-primary">GitHub Link</button></a>
+         <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
     </div>
     <div className="projects_box">
         <div className="project_img i2"></div>
         <p className="desc"> To-do list using React</p>
-         <a>  <button className="btn btn-primary">GitHub Link</button></a>
+         <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
     </div>
     <div className="projects_box">
         <div className="project_img i3"></div>
@@ -25,7 +25,7 @@ const Projects =()=>{
     <div className="projects_box">
         <div className="project_img i4"></div>
        <p className="desc">  Portfolio</p>
-       <a><button className="btn btn-primary">GitHub Link</button></a>
+       <a href="#home"><button className="btn btn-primary">GitHub Link</button></a>
     </div>
 </div>
 </div>
