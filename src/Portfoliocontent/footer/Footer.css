@@ -22,8 +22,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.footer_copyrt{
+    background-image:  linear-gradient( 40deg,#3c00ff, #d902ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
 .scroll:hover{
-    background-image:  linear-gradient( 40deg, #d902ff,#6702ff);
+    background-image:  linear-gradient( 90deg, #d902ff,#6702ff);
 cursor: pointer;
 }
 @media screen and (max-width: 1000px ) {

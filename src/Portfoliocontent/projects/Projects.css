@@ -50,14 +50,21 @@
     padding: 1rem 0.5rem;
 
 }
-.projects_box button{
+.gh_link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.projects_box .btn{
+    font-size: 0.9rem;
     width: max-content;
     padding: 0.2rem 2rem;
-    margin-left: 80% ;
+   /* margin-left: 75% ; */
 background: rgb(85, 26, 161);
-transform: scale(0.9);
+/* transform: scale(0.9); */
 border: 0;
-border-radius: 1.5rem 0;
+border-radius: 1rem 0;
 
 }
 .projects_box button:hover{
@@ -71,3 +78,7 @@ border-radius: 1.5rem 0;
         }
         
   }
+  @media screen and (max-width: 350px ) {
+  .projects_box button{
+   
+  }}

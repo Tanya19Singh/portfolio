@@ -10,23 +10,27 @@ const Projects =()=>{
     <div className="projects_box">
         <div className="project_img i1"></div>
          <p  className="desc"> A dynamic form using React</p>
-         <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
+         <div className="gh_link"> <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
+    </div>
     </div>
     <div className="projects_box">
         <div className="project_img i2"></div>
         <p className="desc"> To-do list using React</p>
-         <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
+         <div className="gh_link"> <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
+    </div>
     </div>
     <div className="projects_box">
         <div className="project_img i3"></div>
         <p  className="desc"> A project describing traditional handicrafts</p>
-         <a href="https://tanya19singh.github.io/IndianArt2/">  <button className="btn btn-primary">GitHub Link</button></a>
+         <div className="gh_link"><a href="https://tanya19singh.github.io/IndianArt2/">  <button className="btn btn-primary">GitHub Link</button></a>
+    </div>
     </div>
     <div className="projects_box">
         <div className="project_img i4"></div>
        <p className="desc">  Portfolio</p>
+       <div className="gh_link">
        <a href="#home"><button className="btn btn-primary">GitHub Link</button></a>
-    </div>
+    </div></div>
 </div>
 </div>
 </>

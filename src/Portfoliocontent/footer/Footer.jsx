@@ -14,6 +14,7 @@ return (
     <div className="footer_copyrt">
         <small> &copy; TANYA SINGH, all rights reserved</small>
     </div>
+    <br></br>
     <div className="scroll" >
     <a href="#home">
         Scroll up

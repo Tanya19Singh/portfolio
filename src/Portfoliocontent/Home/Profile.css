@@ -88,14 +88,30 @@ transition: 1s ease-in-out;
 }
 @media screen and (max-width:850px) {
   .profile_details{
-    height:350px;
-    width: 350px;}  
+    height:auto;
+    width: 350px;
+    padding: 1rem;
+}  
 }
 @media screen and (max-width: 450px ) {
   .profile-picture{
 
-      width: 200px;
-      height:200px;
+      width: 230px;
+      height:230px;
       }
       
 }
+@media screen and (max-width: 350px ) {
+  .profile-picture{
+
+      width: 150px;
+      height:150px;
+      }
+      .profile-details-role{
+        font-size: 1.5rem;
+      }
+      .profile_details{
+        padding: 0;
+        width: max-content;
+      }
+     }
