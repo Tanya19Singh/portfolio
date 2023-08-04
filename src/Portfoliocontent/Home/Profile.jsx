@@ -4,6 +4,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Typical from  'react-typical';
+import pdf from "../../resume.pdf";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Profile.css";
 const Profile=()=>
@@ -42,7 +43,7 @@ return (
                 />
             </div>
             <div className="profile-hire">
-            <a href="resume.pdf" download="resume.pdf">
+            <a href={pdf} target="blank">
             <button className="btn btn-primary highlighted-btn">GET RESUME</button>
             </a>
             </div>
