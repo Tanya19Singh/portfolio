@@ -25,11 +25,15 @@ const Skills=()=>{
                     </div>
                     <div className="list">
                     <CheckCircleIcon className="icn"/>
-                        React
+                        React JS
                     </div>
                     <div className="list">
                     <CheckCircleIcon className="icn"/>
                         Bootstrap
+                    </div>
+                    <div className="list">
+                    <CheckCircleIcon className="icn"/>
+                        Node.js
                     </div>
                                    
                 </div>
@@ -47,7 +51,7 @@ const Skills=()=>{
                 </div>
                 <div className="list">
                 <CheckCircleIcon className="icn"/>
-                        Photoshop
+                        DBMS
                 </div>
                 <div className="list">
                 <CheckCircleIcon className="icn"/>
@@ -55,7 +59,11 @@ const Skills=()=>{
                 </div>
                 <div className="list">
                 <CheckCircleIcon className="icn"/>
-                        C++
+                        Computer networks
+                </div>
+                <div className="list">
+                <CheckCircleIcon className="icn"/>
+                        Operating system
                 </div>
                     
                 </div>

@@ -44,7 +44,7 @@ return (
                     <input className="inputfeild" name="name" input-type="text" placeholder="Your full name" autoComplete="off">
 
                     </input>
-                    <input className="inputfeild" name="mail" input-type="email" placeholder="Your email"autoComplete="off">
+                    <input className="inputfeild" name="mail" input-type="email" placeholder="Your email" autoComplete="off">
 
                     </input>
                     <textarea className="inputfeild" name="msg" rows="7" placeholder="Your message" autoComplete="off">

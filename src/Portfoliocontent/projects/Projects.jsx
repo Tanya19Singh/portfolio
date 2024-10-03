@@ -9,8 +9,8 @@ const Projects =()=>{
 <div className="projects_parent">
     <div className="projects_box">
         <div className="project_img i1"></div>
-         <p  className="desc"> A dynamic form using React</p>
-         <div className="gh_link"> <a  href="#home">  <button className="btn btn-primary">GitHub Link</button></a>
+         <p  className="desc">An online bookstore using MERN</p>
+         <div className="gh_link"> <a  href="https://onlinebookstore-1-qlqe.onrender.com/">  <button className="btn btn-primary">GitHub Link</button></a>
     </div>
     </div>
     <div className="projects_box">
