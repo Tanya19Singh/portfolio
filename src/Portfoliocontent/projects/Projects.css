@@ -43,7 +43,15 @@
     background-size: cover;
 }
 .i4{
-    background: url(../../../prj1.png); 
+    background: url(../../../prj4.png); 
+    background-size: cover;
+}
+.i5{
+    background: url(../../../prj5.png); 
+    background-size: cover;
+}
+.i6{
+    background: url(../../../prj6.png); 
     background-size: cover;
 }
 .desc{

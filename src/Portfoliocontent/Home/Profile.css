@@ -51,7 +51,6 @@ color: black;
     border-radius: 50%;
     height:380px;
     width:380px;
-
   }
   .profile-picture-pic{
     height: 92%;
@@ -95,7 +94,6 @@ transition: 1s ease-in-out;
 }
 @media screen and (max-width: 450px ) {
   .profile-picture{
-
       width: 230px;
       height:230px;
       }

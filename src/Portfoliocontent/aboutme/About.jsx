@@ -29,7 +29,7 @@ return (
                 </a>
             </div>
             <div className="about_content_description">
-            <p>I am Tanya singh, a student at MMMUT, currently pursuing Btech with Information Technology branch. I am a coding enthusiast with great amount of zeal and passion to contribute in tech industry. </p>
+            <p>I am Tanya singh, a student at MMMUT, currently pursuing Btech in Information Technology branch. I am a coding enthusiast with great amount of zeal and passion to contribute in tech industry. </p>
             </div>
             <a href="#contact"><button className="btn btn-primary">Let's talk</button></a>
         </div>

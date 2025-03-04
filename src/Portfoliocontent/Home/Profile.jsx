@@ -34,16 +34,16 @@ return (
                 <Typical
                 loop={Infinity}
                 steps={[
-                    "Passionate Dev",1500,
-                    "Front-end developer",1500,
-                    "CP enthusiast",1500,
-                    "Curious AI learner",1500,
+                    "Passionate Dev",950,
+                    "Front-end developer",950,
+                    "CP enthusiast",950,
+                    "Curious AI learner",950,
                 ]}
 
                 />
             </div>
             <div className="profile-hire">
-            <a href={pdf} target="blank">
+            <a href="https://drive.google.com/file/d/1hT4Pj88Tbba9L9_axJd-HDCfHpPZ0xTn/view?usp=drivesdk" target="blank">
             <button className="btn btn-primary highlighted-btn">GET RESUME</button>
             </a>
             </div>
