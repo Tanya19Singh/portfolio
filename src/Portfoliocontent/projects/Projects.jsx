@@ -39,7 +39,7 @@ const Projects =()=>{
     </div>
     <div className="projects_box">
         <div className="project_img i6"></div>
-       <p className="desc">  Portfolio</p>
+       <p className="desc"> AI Image Generator</p>
        <div className="gh_link">
        <a href="#home"><button className="btn btn-primary">GitHub Link</button></a>
     </div></div>
